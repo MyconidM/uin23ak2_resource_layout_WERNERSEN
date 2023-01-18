@@ -94,3 +94,9 @@ const resources = [
         ]
     },
 ]
+
+function innhold(katergori) {
+    if(katergori === 1) {
+        document.getElementById("text").innerHTML = '<h2>Kategori 1</h2><p>jgirwp jigpr wj jiogprw</p>'
+    }
+}

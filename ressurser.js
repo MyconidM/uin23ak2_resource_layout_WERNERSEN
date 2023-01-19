@@ -95,8 +95,15 @@ const resources = [
     },
 ]
 
-function innhold(katergori) {
-    if(katergori === 1) {
-        document.getElementById("text").innerHTML = '<h2>Kategori 1</h2><p>jgirwp jigpr wj jiogprw</p>'
-    }
+/*teller = 0;
+while(teller < resources.length) {
+    document.getElementById("nav").innerHTML = `<span onclick="innhold(${resources[teller].category})">HTML</span>`
+    teller = teller + 1
+}*/
+   
+function innhold(arrNr) {
+        document.getElementById("text").innerHTML = `<h2>${arrNr.category}</h2><p>${arrNr.text}</p>`
+        arrNr.map
+
+        
 }

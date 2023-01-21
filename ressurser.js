@@ -100,9 +100,9 @@ while(teller < resources.length) {
     document.getElementById("nav").innerHTML = `<span onclick="innhold(${resources[teller].category})">HTML</span>`
     teller = teller + 1
 }*/
-   
 function innhold(arrNr) {
-        document.getElementById("text").innerHTML = `<h2>${arrNr.category}</h2><p>${arrNr.text}</p>`
+    resources.map
+    document.getElementById("text").innerHTML = `<h2>${arrNr.category}</h2><p>${arrNr.text}</p>`
         arrNr.map
 
         

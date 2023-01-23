@@ -1,8 +1,9 @@
 
 :root{
-    --border: rgb(226, 226, 226);
+    --border: 2px solid #e1e1e1;
     --turkis: #40E0D0;
-    --textC: rgb(77, 77, 77);
+    --textC: #4b4b4b;
+    --lightGray: #ededed;
 }
 
 body {
@@ -23,7 +24,7 @@ div.conteiner {
 }
 
 header {
-    border: 2px solid var(--border);
+    border: var(--border);
     margin: 1rem 0;
     padding: .5rem 1rem;
     text-transform: uppercase;
@@ -44,8 +45,8 @@ header a{
     padding: .5rem 1rem;
     margin-right: .5rem;
     display: inline-block;
-    border: 2px solid var(--border);
-    background-color: rgba(220, 220, 220, 0.397);
+    border: var(--border);
+    background-color: var(--lightGray);
     text-transform: uppercase;
 }
 
@@ -56,9 +57,9 @@ header a{
 }
 
 #textCont {
-    border-left: 2px solid var(--border);
-    border-right: 2px solid var(--border);
-    border-bottom: 2px solid var(--border);
+    border-left: var(--border);
+    border-right: var(--border);
+    border-bottom: var(--border);
     border-top: 6px solid var(--turkis);
     padding: 0 1rem;
 }

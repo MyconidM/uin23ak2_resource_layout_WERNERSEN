@@ -1,3 +1,4 @@
+//https://stackoverflow.com/questions/45037753/dynamic-html-navigation-bar-from-array
 function skriveUtNav() {
     let navBar = ''
     for (let i = 0; i< resources.length; i++){
